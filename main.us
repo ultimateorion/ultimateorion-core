@@ -1,0 +1,25 @@
+/*
+
+	This file is entry point of any UltimateOrion Script package.
+	It will use engine bindings to initialize and prepare environment, and then execute high-level scripts.
+
+*/
+
+
+// define some low-level methods
+ENGINE.LoadClass {
+	CONSOLE.Log( "LOADCLASS: " + _class );
+}
+
+//  some test logic
+
+CONSOLE.Log( "TEST" );
+variable = 5;
+variable2 = variable;
+
+
+
+// initialize game object and start main loop
+
+/*game = ~Game( Game );*/
+

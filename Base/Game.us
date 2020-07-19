@@ -1,0 +1,12 @@
+Construct {
+	@.Construct();
+
+	CONSOLE.Log( "Base game constructed" );
+
+}
+
+Destroy {
+	CONSOLE.Log( "Base game destroyed" );
+	
+	@.Destroy();
+}

@@ -1,0 +1,13 @@
+/*
+
+	This is base class and is parent of everything
+
+*/
+
+Construct {
+	CONSOLE.Log( "BASE CONSTRUCT()" );
+}
+
+Destroy {
+	CONSOLE.LOG( "BASE DESTROY()" );
+}
